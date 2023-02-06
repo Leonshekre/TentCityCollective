@@ -1,44 +1,58 @@
 
 body {
     margin: 0px;
+    background-color: beige;
 }
 
 #navBar {
     display: flex;
     flex-direction: row;
     position: relative;
-    -webkit-box-align: center;
     align-items: center;
-	width: 89vw;
+	width: 100vw;
 	float: left;
-	padding: 2vh 5vw; /*-10vw*/
-	background-color: beige; 
-    border-style: solid;
-    border-width: 0.53vw; /*-1vw*/
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-color: burlywood;
+	background-color: #5d5555; 
 }
 
 #navBar > div {
-    background-color: burlywood;
-    margin: 10px;
-    padding: 10px;
+    height: 15vh;
 }
 
-#navButtons {
-    width: auto;
-    justify-content: center;
+.navButtonsDiv {
+    display: flex;
+    width: 60vw;
+    justify-content: right;
     align-items: center;
+}
 
+.navButton {
+    padding: 10px 10px;
+    width: 15vw !important;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #8ea39c;
+    /* border: none; */
+}
+.navButton:hover {
+    background-color: #777;
+    cursor: pointer;
 }
 
 
 .TCC_logo > img{
-    border-style: solid;
-    border-radius: 0.5vw;
-    height: 10vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;;
+    height: 12vh;
+    width: 7vw;
     margin-right: 10vw;
 }
 
+.mainContentDiv {
+    position: relative;
+    margin: 200vh 5vw;
+}
 
